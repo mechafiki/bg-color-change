@@ -1,0 +1,38 @@
+.*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #20123a;
+    padding:0%;
+    margin: 0%;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    height:10vh;
+    padding: 1rem 7rem ;
+    color:aliceblue;
+}
+.logo{
+    height: 100%;
+}
+.header-title{
+    margin: 1rem;
+    font-size: x-large;
+}
+.main{
+    width:90%;
+    height: 90vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background: none;
+    width: 150px;
+    height: 40px;
+    border: solid 2px white;
+    color:white;
+}
